@@ -19,7 +19,7 @@ código HTML, para realizar a atualização de maneira automática.
     const now = new Date();
 
     const dia = now.getDate();
-    const mes = now.getMonth();
+    const mes = now.getMonth() + 1;
     const ano = now.getFullYear();
 
     const horas = now.getHours();
