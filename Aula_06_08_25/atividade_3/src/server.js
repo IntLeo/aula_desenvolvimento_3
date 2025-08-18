@@ -18,7 +18,7 @@ const server = http.createServer((request, response) => {
   ];
 
   const sort = Math.floor(Math.random() * 5);
-  console.log(sort);
+  //console.log(sort);
 
   const msg = `Mensagem do dia: 
 ${messages[sort]}
