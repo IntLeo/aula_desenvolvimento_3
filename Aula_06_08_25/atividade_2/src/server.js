@@ -13,7 +13,8 @@ const server = http.createServer((request, response) => {
 const memoriaTotal = (os.totalmem() / 1024**2).toFixed();
 const memoriaLivre = (os.freemem() / 1024**2).toFixed();
 
-let msg = `
+
+const msg = `
 Servidor Node rodando a ${process.uptime().toFixed()} segundo(s).
 Sistema Operacional: ${os.type}.
 Memoria: ${memoriaLivre} MB livre de ${memoriaTotal} MB.
