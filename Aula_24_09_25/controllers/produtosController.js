@@ -54,5 +54,5 @@ exports.deletarProduto = async (req, res, next) => {
     res.status(200).json({ mensagem: "Produto apagado com sucesso" });
   } catch (err) {
     next(err);
-  }
+  }     
 };
